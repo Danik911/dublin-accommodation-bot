@@ -1,0 +1,36 @@
+{
+  "name": "dublin-accommodation-bot",
+  "version": "1.0.0",
+  "description": "Automated accommodation search for Dublin area using Facebook Marketplace",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "manual": "node manual-mode.js",
+    "semi-manual": "node manual-mode.js",
+    "setup": "node src/setup.js",
+    "search": "node src/main.js",
+    "generate-messages": "node src/services/messageGenerator.js",
+    "export": "node src/utils/export.js",
+    "test": "node src/test.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "playwright": "^1.52.0",
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "keywords": [
+    "dublin",
+    "accommodation",
+    "facebook-marketplace",
+    "automation",
+    "scraping",
+    "playwright"
+  ],
+  "author": "Dublin Accommodation Bot",
+  "license": "MIT"
+}
