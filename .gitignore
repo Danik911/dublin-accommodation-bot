@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Data files (contains scraped data)
+data/
+logs/
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Browser automation files
+.playwright/
+playwright-report/
+test-results/
+
+# Backup files
+*.bak
+*.backup
+
+# Custom workspace files
+*.code-workspace
+
+# Test files (optional - uncomment if you want to exclude)
+# test-*.js
+# demo-*.js
+# *-test.js
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
